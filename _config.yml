@@ -1,14 +1,14 @@
-title:              Kitoha Blog
-email:              
-description:        memo
-author:             Start Bootstrap
-baseurl:            
+title:              기술 메모 블로그
+email:
+description:        [memo]
+author:             kitoha
+baseurl:
 url:                "https://kitoha.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:    kitoha
+facebook_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
