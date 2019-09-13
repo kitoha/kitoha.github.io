@@ -19,13 +19,13 @@ tags: [algorithm, algospot]
 
 부분집합을 구하는 방식 역시 비트마스크를 이용하여 아래와 같은 방식으로 구하면된다.
 
-~~~c++
+```c++
 for(int i=next;i>0;i=((i-1)&next)){
         int bitcnt=bitCount(i);
         if(bitcnt>l) continue;
         ret=min(ret,solve(pos+1,val|i,cnt+bitcnt)+1);
     }
-~~~
+```
 
 해당 방식으로 부분집합을 구할 때 공집합 즉 학기를 휴학 했을 때는 따로 재귀를 호출해주어야 한다. 그리고 과목으 k개 이상 들었을 때 재귀를 종료해주면 된다.
 
@@ -33,7 +33,7 @@ for(int i=next;i>0;i=((i-1)&next)){
 
 소스코드 :
 
-~~~c++
+```c++
 #include<iostream>
 #include<cstdio>
 #include<vector>
@@ -150,4 +150,4 @@ int main(){
 
     return 0;
 }
-~~~
+```
