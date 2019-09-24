@@ -9,6 +9,13 @@
   @include sans-serif-font;
 }
 
+pre.highlight {
+  background: #343434;
+  color: #aab1bf;
+  font-family: 'D2 coding', "Consolas", monospace;
+  padding: 5px;
+}
+
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
