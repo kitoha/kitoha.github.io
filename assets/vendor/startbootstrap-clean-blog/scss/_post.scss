@@ -4,6 +4,7 @@
     color: $gray-900;
     &:focus,
     &:hover {
+      font-size: 25px;
       text-decoration: none;
       color: $primary;
     }

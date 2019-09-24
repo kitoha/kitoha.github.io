@@ -16,6 +16,7 @@ google_analytics:    # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
+highlighter: rouge
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
