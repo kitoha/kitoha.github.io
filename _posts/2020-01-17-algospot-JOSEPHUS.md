@@ -5,7 +5,7 @@ date: 2020-01-17 00:00
 tags: [algorithm,algospot]
 ---
 
-**문제** :[algospot-JOSEPHUS](!https://algospot.com/judge/problem/read/JOSEPHUS)
+**문제** : [JOSEPHUS](!https://algospot.com/judge/problem/read/JOSEPHUS)
 
 **풀이** : 원형 연결리스트를 구현하여 없어진 값의 인덱스에서 시계방향으로 k번째 있는 값들을 인원이 2명남을때 까지 지워주면 됩니다.
 
