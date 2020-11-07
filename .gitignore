@@ -9,3 +9,10 @@ Thumbs.db
 .rbenv-version
 .rvmrc
 /vendor
+
+#미작성 포스트
+
+2020-09-29-oauth.md
+2020-10-22-designPattern.md
+2020-10-22-react-vue.md
+2010-10-22-jwt.md
